@@ -1,0 +1,51 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.form{
+  background-color: grey;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__title{
+  color: gold;
+  align-self: center;
+  margin: 1vh;
+}
+.form__container{
+  margin: 1vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: chartreuse;
+}
+.contenedor{
+  display:flex ;
+  flex-direction: row;
+  background-color: aquamarine;
+}
+.card{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 4vw;
+}
+.card__img{
+  width: 17vw;
+  height: 20vh;
+}
+.card__body{
+
+}
+.card__title{
+
+}
+
+.total{
+  background-color: antiquewhite;
+}
