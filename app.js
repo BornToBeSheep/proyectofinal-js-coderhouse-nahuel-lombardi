@@ -9,7 +9,7 @@ let carrito = [];
 
 
 /* Traigo del archivo data.json el array con los productos en venta y los pinto en pantalla */
-fetch(" /data.json") 
+fetch("./data.json") 
 .then ((res) => res.json())
 .then ((data) =>{
     data.forEach(producto => {
@@ -28,7 +28,7 @@ fetch(" /data.json")
 
 /* Agrego otro objeto al carrito o sumo 1 a su contador */
 const agregarAlcarrito = async (indice) =>{
-    fetch("/data.json")
+    fetch("./data.json")
     .then((res) => res.json())
     .then((data)=>{
         /* recorro el array "carrito" y retorno si el indice ya esta siendo utilizado o no */
