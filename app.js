@@ -54,7 +54,7 @@ const agregarAlcarrito = async (indice) =>{
 }
 /* Misma funcion que el segmento anterior pero en esta busco eliminar */
 const eliminarDelCarrito = async (indice) => {
-    fetch("/data.json")
+    fetch("./data.json")
     .then((res) => res.json())
     .then((data)=>{
         const buscado =carrito.findIndex((encontrar) =>{
